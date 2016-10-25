@@ -1,0 +1,234 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5601F35407B1A0F100796960 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5607DA4107B19C0000C2151B /* GLUT.framework */; };
+		5601F35507B1A0F300796960 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5673FEC007B19E0000AF4085 /* OpenGL.framework */; };
+		811CAA241436461F00A8E442 /* display.c in Sources */ = {isa = PBXBuildFile; fileRef = 811CAA191436461F00A8E442 /* display.c */; };
+		811CAA251436461F00A8E442 /* fileIO.c in Sources */ = {isa = PBXBuildFile; fileRef = 811CAA1A1436461F00A8E442 /* fileIO.c */; };
+		811CAA261436461F00A8E442 /* lights.c in Sources */ = {isa = PBXBuildFile; fileRef = 811CAA1B1436461F00A8E442 /* lights.c */; };
+		811CAA271436461F00A8E442 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 811CAA1C1436461F00A8E442 /* main.c */; };
+		811CAA281436461F00A8E442 /* materials.c in Sources */ = {isa = PBXBuildFile; fileRef = 811CAA1D1436461F00A8E442 /* materials.c */; };
+		811CAA291436461F00A8E442 /* movement.c in Sources */ = {isa = PBXBuildFile; fileRef = 811CAA1E1436461F00A8E442 /* movement.c */; };
+		811CAA2A1436461F00A8E442 /* parameters.c in Sources */ = {isa = PBXBuildFile; fileRef = 811CAA1F1436461F00A8E442 /* parameters.c */; };
+		811CAA2B1436461F00A8E442 /* physics.c in Sources */ = {isa = PBXBuildFile; fileRef = 811CAA211436461F00A8E442 /* physics.c */; };
+		811CAA2C1436461F00A8E442 /* vectormath.c in Sources */ = {isa = PBXBuildFile; fileRef = 811CAA231436461F00A8E442 /* vectormath.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5601F33D07B1A0C200796960 /* GeoFace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = GeoFace.app; path = /Users/gijs/Genesis/mycraft/build/Debug/GeoFace.app; sourceTree = "<absolute>"; };
+		5607DA4107B19C0000C2151B /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = /System/Library/Frameworks/GLUT.framework; sourceTree = "<absolute>"; };
+		5673FEC007B19E0000AF4085 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		811CAA191436461F00A8E442 /* display.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = display.c; path = Template/display.c; sourceTree = "<group>"; };
+		811CAA1A1436461F00A8E442 /* fileIO.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fileIO.c; path = Template/fileIO.c; sourceTree = "<group>"; };
+		811CAA1B1436461F00A8E442 /* lights.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lights.c; path = Template/lights.c; sourceTree = "<group>"; };
+		811CAA1C1436461F00A8E442 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = Template/main.c; sourceTree = "<group>"; };
+		811CAA1D1436461F00A8E442 /* materials.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = materials.c; path = Template/materials.c; sourceTree = "<group>"; };
+		811CAA1E1436461F00A8E442 /* movement.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = movement.c; path = Template/movement.c; sourceTree = "<group>"; };
+		811CAA1F1436461F00A8E442 /* parameters.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = parameters.c; path = Template/parameters.c; sourceTree = "<group>"; };
+		811CAA201436461F00A8E442 /* parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = parameters.h; path = Template/parameters.h; sourceTree = "<group>"; };
+		811CAA211436461F00A8E442 /* physics.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = physics.c; path = Template/physics.c; sourceTree = "<group>"; };
+		811CAA221436461F00A8E442 /* sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sound.h; path = Template/sound.h; sourceTree = "<group>"; };
+		811CAA231436461F00A8E442 /* vectormath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vectormath.c; path = Template/vectormath.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5601F33B07B1A0C200796960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5601F35407B1A0F100796960 /* GLUT.framework in Frameworks */,
+				5601F35507B1A0F300796960 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5607DA2C07B19B9D00C2151B = {
+			isa = PBXGroup;
+			children = (
+				5673FEC007B19E0000AF4085 /* OpenGL.framework */,
+				5607DA4107B19C0000C2151B /* GLUT.framework */,
+				811CAA201436461F00A8E442 /* parameters.h */,
+				811CAA1F1436461F00A8E442 /* parameters.c */,
+				811CAA1A1436461F00A8E442 /* fileIO.c */,
+				811CAA231436461F00A8E442 /* vectormath.c */,
+				811CAA1E1436461F00A8E442 /* movement.c */,
+				811CAA211436461F00A8E442 /* physics.c */,
+				811CAA1B1436461F00A8E442 /* lights.c */,
+				811CAA1D1436461F00A8E442 /* materials.c */,
+				811CAA221436461F00A8E442 /* sound.h */,
+				811CAA191436461F00A8E442 /* display.c */,
+				811CAA1C1436461F00A8E442 /* main.c */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5601F33C07B1A0C200796960 /* Template */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0EC25AF08BBC88F006E9215 /* Build configuration list for PBXNativeTarget "Template" */;
+			buildPhases = (
+				5601F33907B1A0C200796960 /* Resources */,
+				5601F33A07B1A0C200796960 /* Sources */,
+				5601F33B07B1A0C200796960 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Template;
+			productName = GeoFace;
+			productReference = 5601F33D07B1A0C200796960 /* GeoFace.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5607DA3007B19B9D00C2151B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+			};
+			buildConfigurationList = F0EC25C708BBC88F006E9215 /* Build configuration list for PBXProject "GLUTExamples" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 5607DA2C07B19B9D00C2151B;
+			productRefGroup = 5607DA2C07B19B9D00C2151B;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5601F33C07B1A0C200796960 /* Template */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5601F33907B1A0C200796960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5601F33A07B1A0C200796960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				811CAA241436461F00A8E442 /* display.c in Sources */,
+				811CAA251436461F00A8E442 /* fileIO.c in Sources */,
+				811CAA261436461F00A8E442 /* lights.c in Sources */,
+				811CAA271436461F00A8E442 /* main.c in Sources */,
+				811CAA281436461F00A8E442 /* materials.c in Sources */,
+				811CAA291436461F00A8E442 /* movement.c in Sources */,
+				811CAA2A1436461F00A8E442 /* parameters.c in Sources */,
+				811CAA2B1436461F00A8E442 /* physics.c in Sources */,
+				811CAA2C1436461F00A8E442 /* vectormath.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F0EC25B008BBC88F006E9215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = "GeoFace-Info.plist";
+				INSTALL_PATH = "$(USER_APPS_DIR)";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = GeoFace;
+				SDKROOT = macosx;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		F0EC25B108BBC88F006E9215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = "GeoFace-Info.plist";
+				INSTALL_PATH = "$(USER_APPS_DIR)";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = GeoFace;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F0EC25C808BBC88F006E9215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.9;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		F0EC25C908BBC88F006E9215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.9;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0EC25AF08BBC88F006E9215 /* Build configuration list for PBXNativeTarget "Template" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0EC25B008BBC88F006E9215 /* Debug */,
+				F0EC25B108BBC88F006E9215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0EC25C708BBC88F006E9215 /* Build configuration list for PBXProject "GLUTExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0EC25C808BBC88F006E9215 /* Debug */,
+				F0EC25C908BBC88F006E9215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5607DA3007B19B9D00C2151B /* Project object */;
+}
